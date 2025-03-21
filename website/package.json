@@ -9,6 +9,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.5.2"
+    "astro": "^5.5.2",
+    "payload": "^3.29.0",
+    "payload-app": "workspace:*"
   }
 }
