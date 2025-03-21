@@ -1,7 +1,7 @@
 import { CollectionConfig } from 'payload'
 
-export const Pages: CollectionConfig = {
-  slug: 'pages',
+export const Posts: CollectionConfig = {
+  slug: 'posts',
   admin: {
     defaultColumns: ['title', 'slug', 'updatedAt'],
     // livePreview: {
