@@ -11,7 +11,7 @@ export const server = {
     accept: "json",
     handler: async (input) => {
       const payload = await getPayload({ config });
-      return payload.create({ collection: "posts", data: { title: input } });
+      return payload.create({ collection: "posts", data: input });
     },
   }),
   deletePost: defineAction({
